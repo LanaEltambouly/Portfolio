@@ -664,13 +664,11 @@ body{
 
 @media screen and (max-width: 768px) {
   .about-container {
-    flex-direction: column; /* stack columns on small screens */
-    gap: 20px;
+    flex-direction: row; /* keep side-by-side like laptop */
+    gap: 40px; /* match desktop gap */
   }
 
   .about-left, .about-right {
-    flex: 1 1 100%;
+    flex: 1; /* share space equally */
   }
 }
-
-
